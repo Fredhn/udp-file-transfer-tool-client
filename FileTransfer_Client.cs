@@ -116,19 +116,6 @@ namespace FileTransfer_Client
             ip = ip.Replace(@",", @".");
             ip = ip.Replace(@" ", @"0");
             maskedTextBox_IPconnection.Text = ip;
-
-            //if (!e.IsValidInput)
-            //{
-            //    //errorProvider1.SetError(this.maskedTextBox_IPconnection, "INVALID IP!");
-
-            //    maskedTextBox_IPconnection.Enabled = true;
-            //}
-            //else
-            //{
-            //    //errorProvider1.SetError(this.maskedTextBox_IPconnection, String.Empty);
-            //    maskedTextBox_IPconnection.Enabled = false;
-            //    MessageBox.Show("IP váldo.");
-            //}
         }
     }
 }
